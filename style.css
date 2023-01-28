@@ -1,0 +1,100 @@
+/*herramientas*/
+.centrado{
+    text-align: center;
+}
+.margenes{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*aca empieza el header con la nav*/
+body{
+    color:#444;
+    margin: 0px;
+}
+header{
+    background-color:indianred;
+    height: 80px;
+    border-bottom: #666 solid 1px;
+}
+.logo{
+    width: 90px;
+    height: 80px;
+    padding: 20px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    padding: 10px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/*aca empieza section uno - imagen de fondo*/
+
+.splash{
+    width: 100%;
+    height: 100vh;
+    background: url(/img/fondo.png) center center fixed;
+    background-size: cover;
+}
+
+.splash h1{
+    background-color: lightpink;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+
+}
+.texto{
+    margin-top: 40vh;
+}
+
+.splash .btn{
+    background-color:lightcoral ;
+}
+
+/* aca empiezan los cards*/
+
+.content{
+    padding: 20px;
+}
+.card{
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+}
+.card .btn{
+    float: right;
+}
+
+/* aca empieza seccion 3 - frases */
+
+.frases{
+    background: lightgray;
+}
+
+.frases span{
+    background: #666;
+    padding: 3px;
+    display: inline-block;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.frases i{
+    color:lightcoral; 
+}
+.iconitos i{
+    font-size: 100px;
+}
+.iconitos h3{
+    padding: 30px;
+}
